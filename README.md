@@ -130,4 +130,7 @@ This project is available under the Apache-2.0 license.
   ![Dev Build]<img width="945" height="416" alt="image" src="https://github.com/user-attachments/assets/b5e0cbcd-1f9b-4042-94f8-7a4f06571e72" />
 
 
+
+It works :)
+
 <img width="945" height="436" alt="image" src="https://github.com/user-attachments/assets/6ce37986-2eca-4575-8f8e-4b9e89d83887" />
