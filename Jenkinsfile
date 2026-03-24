@@ -1,10 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'python:3.11-slim'
-            args '-u root:root' // pozwala na instalacje pakietów
-        }
-    }
+    agent any
     stages {
         stage('Install') { steps { sh 'pip install -r requirements.txt' } }
         stage('Integration Tests') {
