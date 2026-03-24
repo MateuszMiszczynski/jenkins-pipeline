@@ -5,7 +5,7 @@ pipeline {
         stage('Unit Tests') {
             steps {
                 echo "Running unit tests only for Feature"
-                sh 'pytest tests/unit/feature1 --maxfail=1 -q'
+                sh 'PYTHONPATH=. pytest tests/unit/feature1 --maxfail=1 -q'
             }
         }
     }
