@@ -1,11 +1,11 @@
 pipeline {
     agent any
     stages {
-        stage('Install') { steps { sh 'python3 -m pip install --user -r requirements.txt' } }
+        stage('Install') { steps { sh 'pip install -r requirements.txt' } }
         stage('Unit Tests') {
             steps {
                 echo "Running unit tests only for Feature"
-                sh 'pytest tests/unit tests/unit/feature1 --maxfail=1 -q'
+                sh 'pytest tests/unit/feature1 --maxfail=1 -q'
             }
         }
     }
