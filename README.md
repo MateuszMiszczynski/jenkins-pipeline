@@ -56,11 +56,6 @@ Key environment settings:
 
 To run the project and tests locally, follow these steps:
 
-
-# Jenkins Python CI/CD Pipeline
-
-This project demonstrates a **CI/CD pipeline** using Jenkins, Python, and Docker.
-
 ## Run Locally with Docker
 
 ### 1. Build and run Jenkins container
