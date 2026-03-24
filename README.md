@@ -39,7 +39,7 @@ The project uses a Multibranch Pipeline, which allows automatic branch detection
 
 Key environment settings:
 
-- PYTHONPATH: To avoid `ModuleNotFoundError: No module named 'src'`, all test stages use `PYTHONPATH=..`  
+- PYTHONPATH: To avoid `ModuleNotFoundError: No module named 'src'`, all test stages use `PYTHONPATH=.`  
 - Pip Installation: In Jenkins virtualenv, dependencies are installed with `pip install -r requirements.txt` without `--user` flag to avoid issues in isolated environments.  
 
 ## Pipeline Stages
