@@ -56,8 +56,6 @@ Key environment settings:
 
 To run the project and tests locally, follow these steps:
 
-## Run Locally with Docker
-
 ### 1. Build and run Jenkins container
 ```bash
 docker build -t jenkins-python .
