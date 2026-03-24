@@ -16,20 +16,8 @@ This repository contains a multi-branch Jenkins Pipeline project demonstrating p
 
 The structure has been optimized for separation of logic and different types of tests for each branch:
 
-jenkins-pipeline/
-├── src/
-│ ├── main.py # Main Python application logic (argparse CLI)
-│ └── feature1/ # Feature-specific code (for feature branches)
-├── scripts/
-│ ├── generate_files.sh # Script for generating test data
-│ └── experimental.sh # Experimental scripts (for dev branch)
-├── tests/
-│ ├── unit/ # Unit tests (pytest)
-│ ├── integration/ # Integration tests (pytest)
-│ └── bash/ # Bash script tests (BATS)
-├── requirements.txt # Python dependencies (pytest, pytest-cov)
-├── Jenkinsfile # Main CI/CD pipeline configuration
-└── README.md
+<img width="514" height="328" alt="image" src="https://github.com/user-attachments/assets/99954cb7-6780-45a5-aad9-305376fa2382" />
+
 
 
 ## Technologies
