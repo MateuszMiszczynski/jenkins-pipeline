@@ -16,6 +16,6 @@ pipeline {
         }
     }
     post {
-        always { echo "Branch2 build finished: ${currentBuild.currentResult}" }
+        always { echo "Dev build finished: ${currentBuild.currentResult}" }
     }
 }
